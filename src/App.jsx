@@ -122,11 +122,11 @@ function App() {
                       disabled={selectable ? false : true}
                       key={id}
                       className={
-                        "w-full md:w-1/2 bg-white border-2  p-2 rounded-md text-base text-start " +
+                        "w-full md:w-1/2 text-slate-400 border-2  p-2 rounded-md text-base text-start " +
                         (!selectable
                           ? "text-slate-400 border-slate-400 hover:cursor-not-allowed "
                           : selectedOption == optionsKey[id]
-                          ? "bg-slate-800 text-white border-slate-800 "
+                          ? " bg-slate-800 text-white border-slate-800 "
                           : " border-slate-800 text-slate-900")
                       }
                     >
